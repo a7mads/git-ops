@@ -36,7 +36,7 @@ spec:
       main:
         type: LoadBalancer
         externalIPs:
-          - "${SVC_PLEX_ADDR}"
+          - "${PLEX_ADDR}"
         externalTrafficPolicy: Local
         ports:
           http:
@@ -72,7 +72,7 @@ spec:
       media:
         enabled: true
         type: nfs
-        server: 192.168.2.44
+        server: "${NAS_ADD}"
         path: /mnt/user/media
         mountPath: /media
         readOnly: true
