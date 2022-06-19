@@ -8,3 +8,4 @@ resources:
   # - metallb-system
   - networking
   # - system-upgrade
+  - home
