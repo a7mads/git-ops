@@ -13,3 +13,4 @@ resources:
   - stakater.yaml
   - traefik.yaml
   - weaveworks-kured.yaml
+  - k8s-at-home-charts.yaml
