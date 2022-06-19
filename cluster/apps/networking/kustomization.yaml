@@ -8,3 +8,4 @@ resources:
   - external-dns
   - k8s-gateway
   - traefik
+  - metallb
