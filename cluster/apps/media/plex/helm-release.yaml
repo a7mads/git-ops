@@ -34,7 +34,7 @@ spec:
       main:
         type: LoadBalancer
         externalIPs:
-          - "${PLEX_ADDR}"
+          - 192.168.1.77
         externalTrafficPolicy: Local
         ports:
           http:
