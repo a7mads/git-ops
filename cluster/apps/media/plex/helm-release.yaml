@@ -32,6 +32,9 @@ spec:
       TZ: Asia/Dubai
     service:
       main:
+        # type: LoadBalancer
+        # externalIPs:
+        #   - 192.168.1.77
         externalTrafficPolicy: Local
         ports:
           http:
